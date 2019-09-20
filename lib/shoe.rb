@@ -11,7 +11,7 @@ class Shoe
   def brand= (shoe_brand)
     @brand = shoe_brand
     BRAND << shoe_brand if BRAND.include?("shoe_brand")
-  end  
+  end
 
   def cobble
     self.condition = "new"
